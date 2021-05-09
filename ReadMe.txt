@@ -2,10 +2,11 @@
 
 This repo contains the work material for the course CST8152 - Compilers.
 
-During the few months of the course, We gained an overview of how compilers translate predefined language into something understandable for itself.
-The objective of the course was to build a Lexical Analyzer for the Platypus programming language. Originally created by Prof. Svillen Ranev, the documation for the platypus grammar can be found in the Documents/ folder.
+The objective of this course was to build a complete working compiler for the Platypus language. 
 
-The components of the Platypus compiler are the following:
+Originally created by Prof. Svillen Ranev, the documation for the platypus grammar can be found in the Documents/ folder.
+
+The Platypus compiler uses 3 main components.
 
 The Buffer:
 
@@ -19,4 +20,6 @@ Reads from the buffer.
 
 The Parser:
 
-the objective is to write a Recursive Decent Predictive Parser fro the Platypus 2.0 language and implement it into the existing Lexical Analyzer. Finally, you end up with a rudimentary PLATYPUS interpreter
+the objective is to write a Recursive Decent Predictive Parser fro the Platypus 2.0 language and implement it into the existing Lexical Analyzer. 
+
+Finally, you end up with a rudimentary PLATYPUS interpreter!
