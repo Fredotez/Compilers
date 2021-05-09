@@ -1,5 +1,3 @@
-Frederic Desjardins
-
 /************* The Platypus Compiler *************/
 
 This repo contains the work material for the course CST8152 - Compilers.
