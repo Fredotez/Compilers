@@ -1,0 +1,95 @@
+Reading file a3w4.pls ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  425
+The current size of the buffer is:  425
+
+Printing input buffer contents:
+
+!!This program contains syntax errors
+!!Addition to Murphy's laws:
+!!"In nature, nothing is ever right. Therefore,
+!!if everything is going right ... something is wrong."
+
+PROGRAM{
+  WHILE FALSE(a == b * c)DO{
+   IF TRUE()THEN{a=b<>c;} ELSE ELSE{};
+    WHILE TRUE(goody$ <> "a")DO{};
+    a = (a  badLong89$) + (good badLong89) * (good 7.);
+   };
+  IF TRUE (c > 0)THEN ELSE{}ELSE{};
+  OUTPUT("Imagine all the scanners );
+ }
+}ÿ
+
+Parsing the source file...
+
+PLATY: Primary a_relational expression parsed
+PLATY: Primary a_relational expression parsed
+PLATY: Relational expression parsed
+PLATY: Conditional expression parsed
+PLATY: Syntax error:  Line:  7
+*****  Token code:  8 Attribute: 2
+PLATY: Syntax error:  Line:  8
+*****  Token code: 12 Attribute: NA
+PLATY: Relational expression parsed
+PLATY: Conditional expression parsed
+PLATY: Primary arithmetic expression parsed
+PLATY: Arithmetic expression parsed
+PLATY: Assignment expression (arithmetic) parsed
+PLATY: Syntax error:  Line:  8
+*****  Token code:  9 Attribute: 1
+PLATY: Assignment statement parsed
+PLATY: Syntax error:  Line:  8
+*****  Token code: 15 Attribute: ELSE
+PLATY: Opt_statements parsed
+PLATY: Selection statement parsed
+PLATY: Primary string expression parsed
+PLATY: Primary s_relational expression parsed
+PLATY: Primary string expression parsed
+PLATY: Primary s_relational expression parsed
+PLATY: Relational expression parsed
+PLATY: Conditional expression parsed
+PLATY: Syntax error:  Line:  9
+*****  Token code: 14 Attribute: NA
+PLATY: Iteration statement parsed
+PLATY: Primary arithmetic expression parsed
+PLATY: Arithmetic expression parsed
+PLATY: Syntax error:  Line: 10
+*****  Token code:  2 Attribute: badLong$
+PLATY: Primary arithmetic expression parsed
+PLATY: Primary arithmetic expression parsed
+PLATY: Arithmetic expression parsed
+PLATY: Syntax error:  Line: 10
+*****  Token code:  1 Attribute: badLong8
+PLATY: Primary arithmetic expression parsed
+PLATY: Primary arithmetic expression parsed
+PLATY: Arithmetic expression parsed
+PLATY: Syntax error:  Line: 10
+*****  Token code:  3 Attribute:   7.0
+PLATY: Primary arithmetic expression parsed
+PLATY: Multiplicative arithmetic expression parsed
+PLATY: Additive arithmetic expression parsed
+PLATY: Arithmetic expression parsed
+PLATY: Assignment expression (arithmetic) parsed
+PLATY: Assignment statement parsed
+PLATY: Iteration statement parsed
+PLATY: Primary a_relational expression parsed
+PLATY: Primary a_relational expression parsed
+PLATY: Relational expression parsed
+PLATY: Conditional expression parsed
+PLATY: Syntax error:  Line: 12
+*****  Token code: 15 Attribute: ELSE
+PLATY: Opt_statements parsed
+PLATY: Opt_statements parsed
+PLATY: Selection statement parsed
+PLATY: Syntax error:  Line: 15
+*****  Token code: -1 Attribute: "Imagine all the ...
+PLATY: Output list (empty) parsed
+PLATY: Syntax error:  Line: 15
+*****  Token code:  0 Attribute: SEOF_T		1	
+
+Syntax errors: 9
+
+Collecting garbage...
