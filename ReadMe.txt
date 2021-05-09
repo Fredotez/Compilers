@@ -1,15 +1,14 @@
-Assignment 3, CST8152.
 Frederic Desjardins
-04094359
 
-/************* Testing Results ************************/
+/************* The Platypus Compiler *************/
 
-All standard inputs been tested. Outputs seem to be matching the ones provided.
-I have found 2 bugs,
+This repo contains the work material for the course CST8152 - Compilers.
 
-The first seems to affect the line number. In certain cases, the line number increments a bit too much or not enough.
+During the few months of the course, We gained an overview of how compilers translate predefined language into something understandable for itself.
+The objective of the course was to build a Lexical Analyzer for the Platypus programming language. Originally created by Prof. Svillen Ranev, the documation for the platypus grammar can be found in the Documents/ folder.
 
-The 2nd is with the SEOF symbol, although it detects it correctly, it prints 255 instead of 0.
+The components of the Platypus compiler are the following:
 
-Fixed a bug where the buffer capacity was always 1 more then it should be. 
-
+- Buffer (to store the series of characters)
+- Scanner (to read from the buffer)
+- 
