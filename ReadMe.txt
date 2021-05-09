@@ -1,4 +1,4 @@
-Assignment 3, CST152.
+Assignment 3, CST8152.
 Frederic Desjardins
 04094359
 
