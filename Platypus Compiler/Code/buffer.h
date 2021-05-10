@@ -33,9 +33,6 @@
 #define DEFAULT_INC_FACTOR 15       /* default increment factor */
 
 
-/* You should add your own constant definitions here */
-
-/* Add your bit-masks constant definitions here */
 #define DEFAULT_FLAGS	0xFFFC 	// 1111.1111 1111.1100
 #define SET_EOB			0xFFFD	// 1111 1111 1111 1101 OR
 #define RESET_EOB		0xFFFE  // 1111.1111 1111.1110 AND
@@ -45,7 +42,6 @@
 #define CHECK_R_FLAG	0xFFFE	// 1111 1111 1111 1110 if (flag & checkr == checkr)
 
 
-/* user data type declarations */
 /* user data type declarations */
 typedef struct BufferEntity {
 	char* string;   /* pointer to the beginning of character array (character buffer) */
@@ -58,13 +54,7 @@ typedef struct BufferEntity {
 	unsigned short flags;     /* contains character array reallocation flag and end-of-buffer flag */
 } Buffer, * pBuffer;
 
-/*
-IMPORTANT NOTE (2DO):
-Place your function declarations here.
-Do not include the function header comments here.
-Place them in the buffer.c file
-*/
-
+/*Function Declerations*/
 
 short bufferRetract(Buffer* const pBE);
 
